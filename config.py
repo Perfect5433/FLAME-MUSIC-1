@@ -9,13 +9,9 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "BQCFSuZpSdNXP_Hw5h8arfMYMDEjRGpep2N5ENHfQ4_ueFoA33DSx5j9Axej-Q9_4BENcE33sPxH1EErBoP-W5TE1n3N8rhurAEJWVGsoy9SI6xM67CZISfxAg20sDaAyv0Qc6brROKItCJB30F_VmGCa4oKmp-uPaO1FN8ZQ-vEapfjgbVbuJHotKXLAYA3Sus5XnqaI7gVldj99L3nVuxaEKgacfCUmlpmnlb_wWLiPV-PyVAT3fo61-CY6I0bFh7HfIt-9rklgARGW7t8HlgFCAykNfahxKf5WEDUaRTsCNn_RLPBX0_ougCg8N_SCi6o4i8zfaXNJV7odXNOkjuZeDgIGAA")
-BOT_TOKEN = getenv("BOT_TOKEN", "5365682329:AAH50JKcxuXPnvad_MtnIIng4kJBi1aNTv4")
-BOT_NAME = getenv("BOT_NAME", "FlameMusicBot")
-API_ID = int(getenv("API_ID", "6393543"))
-API_HASH = getenv("API_HASH", "88fcd4f66f322a6cc483dd4cd33bdc84")
-OWNER_NAME = getenv("OWNER_NAME", "Perfect")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Xmartperson")
+SESSION_NAME = getenv("SESSION_NAME", ")
+BOT_TOKEN = getenv("BOT_TOKEN", "5365682329:")
+BOT_NAMEtenv("OWNER_USERNAME", "Xmartperson")
 ALIVE_NAME = getenv("ALIVE_NAME", "Flame")
 BOT_USERNAME = getenv("BOT_USERNAME", "FlameMusicBot")
 OWNER_ID = getenv("OWNER_ID", "5083524212")

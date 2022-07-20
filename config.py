@@ -9,7 +9,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", ")
+SESSION_NAME = getenv("SESSION_NAME", "BQAQ9FbKu_yS7ONO9YUdkgSp5PU6hOyscW9Nki4VEglK6jmhRp85Zf3ADVoZT_HJSPwILSfL5Qw8p5qlDKf11egzpS2ybQmPB7apYZvWDrxjx0Xp07jx5PtZvfvm-4rIYzaDUvNX3OwV5JeuNAvziDoENJKaVP9UvRQCWROelxa2Evd1Dq0MaTMVZEQhjF3KI2015aJzx4-ZtWGLrQ9ShPCzsM7hO7mVjxKQeT_KeF_D8UIHyNEsOaPBOmfjNjC8fC0JM1EE9avopqPwAfProaQ4DokQlG44gN1CgVK4fu0ZqN_OIG3gbmaFK7RQUIcptcEnje6FwgowaU8JPvdhTY0YeDgIGAA")
 BOT_TOKEN = getenv("BOT_TOKEN", "5365682329:")
 BOT_NAMEtenv("OWNER_USERNAME", "Xmartperson")
 ALIVE_NAME = getenv("ALIVE_NAME", "Flame")
@@ -17,7 +17,7 @@ BOT_USERNAME = getenv("BOT_USERNAME", "FlameMusicBot")
 OWNER_ID = getenv("OWNER_ID", "5083524212")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Flame_assistant")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "all_competitive_examm")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "all_competitive_examm")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "flame_updates")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5083524212").split()))
